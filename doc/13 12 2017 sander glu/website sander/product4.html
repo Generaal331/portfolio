@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>OUTDOOR LIVE</title>
+ <link href="product.css" rel="stylesheet" />
+   <style>
+body {
+    background-color: darkgray;
+}
+</style>
+ 
+ <style>
+.onclick {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+</style>
+ 
+ 
+ 
+ 
+ </head>
+
+ <body>
+  <div id="kader3">skis 500$ </div>
+ <div class="center">
+  <p><b>Eigenschappen: </b>
+*4D Fibercap Constructie™
+<br></br>
+*Thin Tip™
+<br></br>
+*Aspenlite™ Core
+<br></br>
+*5Cut™
+<br></br>
+*Symmetric Flex™
+<br></br>
+*Carbon Ollieband™</p>
+</div>
+ 
+ 
+ <h2>winkelwagen</h2>
+
+
+<button onclick="myFunction()">buy</button>
+<p id="demo"></p>
+<script>
+function myFunction() {
+    var txt;
+    if (confirm("are you sure you want this product!") == true) {
+        txt = "now in your shopcar!";
+    } else {
+        txt = "Your product has been removed!";
+    }
+    document.getElementById("demo").innerHTML = txt;
+}
+</script>
+ 
+ 
+ <script>
+function myFunction() {
+    var txt;
+    if (confirm("are you sure you want this product!") == true) {
+        txt = "now in your shopcar!";
+    } else {
+        txt = "Your product has been removed!";
+    }
+    document.getElementById("demo").innerHTML = txt;
+}
+</script>
+ 
+
+
+
+<div id="footer">
+<footer>Copyright Sander Groothuis</footer>
+
+</body>
+</html>

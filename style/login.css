@@ -1,0 +1,49 @@
+body{
+    background-image: url("../img1/b1.jpg");
+    background: cover;
+    background-size: 100% ;
+  }
+  
+  #container{
+    width: 100%;
+      margin: 0 auto;
+      max-width: 960px;
+  }
+  
+  
+  .blok2{
+    margin-top: 100px;
+    margin-left: 600px;
+    margin-top: 200px;
+    width: 20%;
+    background-color: gray;
+    color: black;
+    text-align: center;
+    opacity: 0.6;
+    height: 400px;
+  }
+  
+  #blok1{
+    margin-top: 100px;
+    margin-left: 600px;
+    margin-top: 200px;
+    width: 20%;
+    background-color: gray;
+    color: black;
+    text-align: center;
+    opacity: 0.6;
+    height: 400px;
+  }
+  @media only screen and (max-width: 768px) {
+  .blok2{
+    width: 50%;
+    margin-left: 70px;
+  
+   }
+
+   #blok1{
+    width: 50%;
+    margin-left: 70px;
+  
+   }
+  }

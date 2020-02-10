@@ -1,0 +1,51 @@
+p{
+	color: #ff0000;
+}
+
+#kader{
+	width:300px;
+	height:200px;
+	background-color: #ff00ff;
+	float: right;
+}
+<style>
+body  {
+    background-image: url("lol3.gif");
+    background-color: #cccccc;
+}
+</style>
+
+
+	
+	
+#kader4{
+width:100px;
+height:120px;
+background-color:#3cb371;
+float:right-side;
+}
+#kader3{
+	float:middle;
+}
+p {
+    border-bottom: 6px solid red;
+    background-color: lightgrey;
+}
+<background-image:
+
+
+
+#wrap
+{
+background: url(img/background1.jpg);
+width: 100%
+}
+
+#footer{
+	padding: 70px;
+	text-align: center;
+	font-size: 20 px;
+	background: #000000;
+	color:#daa520;
+}
+

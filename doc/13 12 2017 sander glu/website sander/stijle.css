@@ -1,0 +1,89 @@
+.container  
+{
+   max-width: 600px;
+   width: 100%;
+   height: auto;
+   background-color: #dedede;
+   text-align: center;
+   font-family: Century Gothic;
+}
+
+.head {
+  padding: 15px;
+}
+
+.body {
+  background-color: #dedede;
+}
+h3 {
+  font-weigth: bold;
+  font-size: 22px;
+  padding: 10px 0;
+}
+
+input {
+  width: 240px; 
+  font-size: 18px;
+  padding: 5px;
+  outline: none;
+  border: 0;
+  
+}
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+#list {
+  width: 335px;
+  list-style: none;
+}
+
+
+  li {
+  float: left;
+  padding: 5px;
+  margin-left: 92px;
+  width: 324px;
+  text-align: left;
+  border-bottom: 1px solid #666;
+  margin-bottom: 10px;
+  /* like the image are 30px height + 16px padding, the line-height must be 46px */
+  line-height: 46px;
+}
+img {
+  float: right;
+  padding: 8px;
+  width: 30px;
+  height: 30px; 
+  
+}
+
+
+
+#footer{
+	padding: 70px;
+	text-align: center;
+	font-size: 20 px;
+	background: #000000;
+	color:#daa520;
+}

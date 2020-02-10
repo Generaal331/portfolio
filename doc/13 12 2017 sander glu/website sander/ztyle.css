@@ -1,0 +1,39 @@
+ <style> 
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 30px 30px 30px 50px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+#kader5{
+float: left-side;
+
+
+}
+
+#block{
+	float: "right-side";
+	color: #daa520;
+	font-size: 30px;
+}
+
+#footer{
+	padding: 70px;
+	text-align: center;
+	font-size: 20 px;
+	background: #000000;
+	color:#daa520;
+}
